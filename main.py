@@ -49,5 +49,5 @@ ax.set_ylabel("Y")
 ax.set_zlabel("Z")
 ax.legend(bbox_to_anchor=(1.05, 1), loc="upper left")
 
-plt.savefig("word_embeddings_plot.png")
+plt.savefig("word_embeddings_plot_1.png")
 plt.show()
