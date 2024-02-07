@@ -16,7 +16,7 @@ def get_embeddings(words, model="text-embedding-3-small"):
     embeddings = []
     for word in words:
         text = word.replace("\n", " ")
-        embedding = np.random.rand(768)  # 768次元の埋め込みを仮定
+        embedding = client.embeddings.create(input=[text], model=model).data[0].embedding
         embeddings.append(embedding)
     return embeddings
 
