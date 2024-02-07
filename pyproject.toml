@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "openai-sandbox-skeleton"
+version = "0.1.0"
+description = ""
+authors = ["Niten Nashiki <n.nashiki.work@gmail.com>"]
+readme = "README.md"
+packages = [{include = "openai_sandbox_skeleton"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^1.8.0"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.13"
+taskipy = "^1.12.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+fmt = "ruff format ."
