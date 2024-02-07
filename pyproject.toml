@@ -10,6 +10,9 @@ packages = [{include = "openai_sandbox_skeleton"}]
 python = "^3.11"
 openai = "^1.8.0"
 python-dotenv = "^1.0.0"
+matplotlib = "^3.8.2"
+pandas = "^2.2.0"
+scikit-learn = "^1.4.0"
 
 
 [tool.poetry.group.dev.dependencies]

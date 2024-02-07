@@ -1,5 +1,7 @@
-# openai-sandbox-skeleton
-OpenAI の sandbox Repo を作成するための sleleton
+[# openai-embedding-viewer
+OpenAI で embedding した単語を3次元にして可視化するコード
+
+![word_embeddings_plot.png](word_embeddings_plot.png)
 
 ## 準備
 - `cp .env.template .env`
